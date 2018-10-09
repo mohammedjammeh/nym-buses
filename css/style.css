@@ -1,0 +1,552 @@
+/* BODY */
+ul {
+	padding: 0;
+	list-style-type: none;
+}
+
+a {
+	text-decoration: none
+}
+
+
+body {
+	margin: 0 auto;
+	font-family: 'Droid Serif', serif;
+	max-width: 1000px;
+	padding: 0 5%;
+	background-color: #f2f2f2;
+}
+
+
+
+
+
+
+
+/*HEADER*/
+header h1 {
+	text-align: center;
+	font-family: cambria;
+	font-weight: lighter;
+	margin: 3% 0;
+}
+
+
+header h1 a {
+	font-size: 1.4em;
+	color: #990000;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*FOOTER*/
+footer {
+	margin: 5%;
+	color: #1a1a1a;
+}
+
+footer a {
+	float: left;
+	width: 40%;
+	color: #1a1a1a;
+}
+
+footer a:hover {
+	text-decoration: underline;
+}
+
+footer p {
+	text-align: right;
+	float: right;
+	width: 60%;
+	margin: 0;
+	font-size: 0.95em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+/* INDEX */
+.index p {
+	letter-spacing: 0.25px;
+	color: #333333;
+}
+
+.index > p {
+	font-size: 0.95em;
+	margin: 4% 3.5%;
+	line-height: 1.5;
+	text-align: center;
+}
+
+.index form {
+	padding: 6% 10%;
+	margin: 0 4%;
+	background-color: white;
+	border: 1px solid lightgrey;
+	border-radius: 5px;
+}
+
+.index input,
+.index select {
+	width: 95%;
+	margin: 4% 2.5%;
+	padding: 4%;
+	font-family: 'Droid Serif', serif;
+	color: #333333;
+	font-size: 0.9em;
+	border: 1px solid lightgrey;
+	border-radius: 3px;
+	font-weight: lighter;
+}
+
+
+.index input:focus,
+.index select:focus {
+	outline: 1px solid #b3b3b3;
+}
+
+.index select option {
+	font-size: 1em;
+}
+
+
+input[name="search"] {
+	background-color: #800000;
+	color: white;
+	border: 1px solid #800000;
+	transition: all 0.25s;
+	cursor: pointer;
+}
+
+input[name="search"]:hover {
+	background-color: #990000;
+	border: 1px solid #990000;
+
+}
+
+.index div {
+	padding: 2.5%;
+	margin: 5% 4%;
+	background-color: white;
+	border: 1px solid lightgrey;
+	border-radius: 5px;
+}
+
+.index div p {
+	text-align: center;
+}
+
+.index div p:first-of-type {
+	font-size: 3.5em;
+	color: #4d4d4d;
+	font-family: calibri;
+	font-weight: lighter;
+	margin: 0% 5% 0% 5%;
+}
+
+.index div p:first-of-type + p,
+.index div p:first-of-type + p + p {
+	margin: 2% 5% 4% 5%;
+	color: #333333;
+}
+
+.index div ul {
+	margin-left: 15%;
+	margin-right: 15%;
+}
+
+
+.index div ul li {
+	border-bottom: 1px solid lightgrey;
+	color: #595959;
+	text-align: center;
+	padding: 5% 0;
+	font-size: 0.95em;
+}
+
+.index div ul li:last-child {
+	border-bottom: none;
+}
+
+
+
+
+
+
+
+
+
+/* ADMIN LOGIN */
+.admin_login p {
+	letter-spacing: 0.25px;
+	color: #333333;
+	font-size: 0.95em;
+	margin: 4% 3.5%;
+	line-height: 1.5;
+	text-align: center;
+}
+
+.admin_login form {
+	padding: 6% 10%;
+	margin: 0 4%;
+	background-color: white;
+	border: 1px solid lightgrey;
+	border-radius: 5px;
+}
+
+.admin_login input {
+	width: 87%;
+	margin: 4% 2.5%;
+	padding: 4%;
+	font-family: 'Droid Serif', serif;
+	color: #333333;
+	font-size: 0.88em;
+	border: 1px solid lightgrey;
+	border-radius: 3px;
+	font-weight: lighter;
+}
+
+
+.admin_login input:focus {
+	outline: 1px solid #b3b3b3;
+}
+
+
+.admin_login input:focus {
+	border: 1px solid #a6a6a6;
+}
+
+
+input[name="login"] {
+	width: 95%;
+	background-color: #800000;
+	color: white;
+	border: 1px solid #800000;
+	transition: all 0.25s;
+	cursor: pointer;
+}
+
+input[name="login"]:hover {
+	background-color: #990000;
+	border: 1px solid #990000;
+}
+
+
+
+
+
+
+
+
+
+/* ADMIN */
+.admin div p {
+	letter-spacing: 0.25px;
+	color: #333333;
+	font-size: 0.95em;
+	margin: 4% 3.5%;
+	line-height: 1.5;
+	text-align: center;
+}
+
+
+.admin form {
+	padding: 6% 10%;
+	margin: 0 4% 5%;
+	background-color: white;
+	border: 1px solid lightgrey;
+	border-radius: 5px;
+}
+
+
+.admin form p {
+	margin: 1% 2.5% 2.5%;
+}
+
+
+.admin form .errorMessage {
+	color: #b30000;
+}
+
+.admin form .successMessage {
+	color: #333333;
+}
+
+
+.admin select {
+	width: 95%;
+	margin: 4% 2.5%;
+	padding: 4%;
+	font-family: 'Droid Serif', serif;
+	color: #333333;
+	font-size: 0.9em;
+	border: 1px solid lightgrey;
+	border-radius: 3px;
+	font-weight: lighter;
+	line-height: 3px;
+	transition: all 0.3s;
+}
+
+input[name="displayForm"] + p,
+input[name="displayServices"] + p  {
+	color: #595959;
+	margin: 15% 2.5% 2.5%;
+	text-align: center;
+	font-size: 1em;
+}
+
+.admin input[type="text"],
+.admin input[type="number"] {
+	width: 85%;
+	margin: 4% 2.5%;
+	padding: 4%;
+	font-family: 'Droid Serif', serif;
+	color: #333333;
+	font-size: 0.9em;
+	border: 1px solid lightgrey;
+	border-radius: 3px;
+	font-weight: lighter;
+	line-height: 3px;
+	transition: all 0.3s;
+}
+
+.admin input[type="time"] {
+	width: 38%;
+	font-family: 'Droid Serif', serif;
+	color: #333333;
+	font-size: 0.9em;
+	border: 1px solid lightgrey;
+	border-radius: 3px;
+	font-weight: lighter;
+	transition: all 0.3s;
+	margin: 2.5%;
+	padding: 2.5%;
+}
+
+
+.admin input:focus,
+.admin select:focus {
+	outline: 0.5px solid #ccc;
+}
+
+.admin select option {
+	font-size: 1em;
+}
+
+
+.admin div div {
+	color: #666666;
+	border: 1px solid lightgrey;
+	margin: 2.5%;
+	padding: 0% 5%;
+	line-height: 1.5;
+}
+
+
+
+
+.admin div div p {
+	text-align: c;
+	margin: 0 0 2% 0;
+	color: #333333;
+}
+
+
+.admin label {
+	font-size: 0.95em;
+	line-height: 2;
+}
+
+
+input[type="submit"] {
+	width: 95%;
+	margin: 4% 2.5%;
+	padding: 4%;
+	font-family: 'Droid Serif', serif;
+	font-size: 0.9em;
+	border-radius: 3px;
+	font-weight: lighter;
+	background-color: #800000;
+	color: white;
+	border: 1px solid #800000;
+	transition: all 0.25s;
+	cursor: pointer;
+}
+
+input[type="submit"]:hover {
+	background-color: #990000;
+	border: 1px solid #990000;
+}
+
+
+
+table, td {
+    border: 1px solid lightgrey;
+    text-align: center;
+    background-color: white;
+    color: #666666;
+    font-size: 0.95em;
+
+}
+
+table {
+    border-collapse: collapse;
+    width: 97%;
+    margin: 1.5%;
+}
+
+tr:first-of-type td {
+	font-size: 1.05em;
+	background-color: #e6e6e6;
+	color: #404040;
+}
+
+td {
+	height: 45px;
+}
+
+
+
+
+
+
+
+
+
+/*********************************
+Clearfix
+The code below has been taken from: http://nicolasgallagher.com/micro-clearfix-hack
+The code will give floated elements their full height
+*********************************/
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+
+
+
+
+/*MEDIA QUERIES*/
+@media screen and (min-width: 600px) {
+
+	/*header*/
+	header h1 {
+		margin: 2% 0 1%;
+	}
+
+	/*footer*/
+	footer {
+		margin: 2.5% auto;
+		width: 50%;
+	}
+
+
+	footer p,
+	footer a {
+		float: none;
+		text-align: center;
+		display: block;
+		width: 100%;
+		margin: 2.5% 0;
+	}
+
+
+	/*index*/
+	.index > p {
+		margin: 2% auto;
+		line-height: 1.7;
+		width: 40%;
+	}
+
+	.index form {
+		padding: 3% 4%;
+		margin: 0 auto;
+		width: 33%;
+	}
+
+
+	.index div {
+		padding: 2.5%;
+		margin: 2.5% auto -1%;
+		width: 36%;
+	}
+
+
+	.index input {
+		margin: 2.5%;
+		padding: 4% 2.5%;
+	}
+
+	.index select {
+		padding: 4%;
+	}
+
+
+	/*admin login*/
+	.admin_login p {
+		margin: 2% auto;
+		line-height: 1.7;
+		width: 40%;
+	}
+
+	.admin_login form {
+		padding: 2.5% 5%;
+		margin: 2.5% auto -1%;
+		width: 32%;
+	}
+
+
+	/*admin*/
+
+	.admin {
+		width: 100%;
+		padding: 0;
+		margin: 0;
+	}
+
+	.admin div:first-of-type {
+		width: 33.3333333333%;
+		margin: 0%;
+		padding: 0%;
+		float: left;
+	}
+
+
+	.admin div:first-of-type + div {
+		width: 33.3333333333%;
+		margin: 0%;
+		padding: 0%;
+		float: left;
+	}
+
+	.admin div:first-of-type + div + div {
+		width: 33.3333333333%;
+		margin: 0%;
+		padding: 0%;
+		float: left;
+	}
+
+}
